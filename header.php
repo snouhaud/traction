@@ -59,7 +59,7 @@
               autoStart: <?php echo $autoStart; ?>, 
               slidespeed: <?php echo $slidespeed; ?>,
               fadespeed: <?php echo $fadespeed; ?>,
-              autoHeight: 1,
+              autoHeight: 1
           });    
       });
     </script>
