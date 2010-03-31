@@ -22,6 +22,7 @@
           <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('index-thumb', array('class' => 'single-post-thm alignright border') ); ?>
           <?php the_content(__('Read more' . $read_more, 'traction')); ?>
           <?php edit_post_link(__('Edit This','<p>','</p>', 'traction')); ?>
+          <?php wp_link_pages(); ?>
         </div><!--end entry-->
         <div class="meta clear">
           <div class="cats"><?php _e('<em>Read more from</em>', 'traction') ?> <?php the_category(', '); ?></div>
