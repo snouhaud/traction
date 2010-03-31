@@ -11,7 +11,7 @@
     <div id="content">
       <?php if (have_posts()) : ?>
       <?php while (have_posts()) : the_post(); ?>
-      <?php if (is_sticky()) continue; ?>
+      <?php if (($traction->sliderState() != '') && (is_sticky())) continue; ?>
       <div id="post-<?php the_ID(); ?>" <?php post_class('clear'); ?>>
         <div class="date">
           <div class="day"><?php the_time(__('j')) ?></div>
