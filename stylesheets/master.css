@@ -724,7 +724,6 @@ div.c-body {
 div.c-body p { margin-top: 10px; }
 /*Threaded Comments
 ---------------------------------------*/
-#comments ul.children div.comment-box {  }
 #comments ul.children {
   margin: 10px 0 0 121px;
   clear: both;
@@ -748,6 +747,8 @@ div.c-body p { margin-top: 10px; }
   margin-left: 117px; 
   width: 363px; 
 }
+#comments ul.children ul.children { margin-right: 20px; }
+#comments ul.children ul.children div.c-body { width: 216px; }
 a.comment-reply-link {
   float: right; 
   clear: both;
