@@ -10,7 +10,6 @@
           <?php echo $traction->footerAbout(); ?>
         <?php else : ?>
           <p><?php _e("Did you know you can write your own about section just like this one? It's really easy. Head into the the <em>Traction Options</em> menu and check out the footer section. Type some stuff in the box, click save, and your new about section shows up in the footer.", "traction") ?></p>
-          <p><?php _e("We didn't take them, they are a random sampling of the most popular photos on Flickr with the tag 'nature'.", "traction") ?></p>
         <?php endif; ?>
     </div>
     <div id="footer-middle" class="footer-column">

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traction WordPress Theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-09 00:22-0700\n"
+"POT-Creation-Date: 2010-03-31 10:34-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Drew Strojny <themes@jestro.com>\n"
 "Language-Team: \n"
@@ -196,19 +196,15 @@ msgstr ""
 msgid "Did you know you can write your own about section just like this one? It's really easy. Head into the the <em>Traction Options</em> menu and check out the footer section. Type some stuff in the box, click save, and your new about section shows up in the footer."
 msgstr ""
 
-#: footer.php:13
-msgid "We didn't take them, they are a random sampling of the most popular photos on Flickr with the tag 'nature'."
-msgstr ""
-
-#: footer.php:21
+#: footer.php:20
 msgid "Pages"
 msgstr ""
 
-#: footer.php:33
+#: footer.php:32
 msgid "Search"
 msgstr ""
 
-#: footer.php:45
+#: footer.php:44
 msgid "Copyright"
 msgstr ""
 
@@ -277,7 +273,7 @@ msgstr ""
 msgid "F j, Y"
 msgstr ""
 
-#: single.php:27
+#: single.php:28
 msgid "<em>Read more from</em>"
 msgstr ""
 
