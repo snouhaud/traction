@@ -20,8 +20,8 @@
         <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('index-thumb', array('class' => 'index-post-thm alignleft border') ); ?></a>    
         <div class="entry <?php if ( !has_post_thumbnail() ) echo 'nothumb'; ?>">
           <h2 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-          <?php the_content(__('Read more' . $read_more, 'traction')); ?>
-          <?php edit_post_link(__('Edit This','<p>','</p>', 'traction')); ?>
+          <?php the_content(__('Read more' , 'traction') . $read_more ); ?>
+          <?php edit_post_link('<p>' . __('Edit This', 'traction') . '</p>'); ?>
         </div><!--end entry-->
       </div><!--end post-->
       <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>

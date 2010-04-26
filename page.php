@@ -14,8 +14,8 @@
         <h1 class="title"><?php the_title(); ?></h1>
         <div class="entry page">
           <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('index-thumb', array('class' => 'single-post-thm alignright border') ); ?>
-          <?php the_content(__('Read more' . $read_more, 'traction')); ?>
-          <?php edit_post_link(__('Edit This','<p>','</p>', 'traction')); ?>
+          <?php the_content(__('Read more', 'traction') . $read_more); ?>
+          <?php edit_post_link('<p>' . __('Edit This', 'traction').'</p>'); ?>
         </div><!--end entry-->
       <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
         <?php comments_template('', true); ?>
